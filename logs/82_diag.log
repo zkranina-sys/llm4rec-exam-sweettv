@@ -1,0 +1,38 @@
+watched rule: new
+check: MAP@5 CBF = 0.4388
+
+1a user 8377619604347126107: CBF top item 200477; matrix score 0.648300, pure-Python cosine 0.648300
+   raw attributes of that item: {'tv_show_title': "'Завтрак. Выходной'.", 'tv_show_category': 'Развлечения', 'tv_show_genre_1': 'информация (комплексная)', 'director': '', 'actors': '', 'year_of_production': '2016'}
+
+1b/1c Top-5 composition (averages over 1244 users):
+method          familiar share  P@5 familiar   P@5 new  median users/item
+Популярность             0.880         0.771     0.306               3777
+История                  0.993         0.781     0.512               3145
+CBF                      0.799         0.625     0.160               1967
+PPR                      0.993         0.785     0.537               3684
+   CBF: share of users whose 5th and 6th scores are exactly tied: 0.031
+   share of a user's validation shows already watched in train: 0.282
+
+1d CBF ablations (MAP@5):
+   all attributes, TF-IDF (used)       0.4387
+   all attributes, binary (no IDF)     0.1974
+   without channel                     0.2632
+   category + genres only              0.0887
+   director + actors only              0.3343
+   channel only                        0.4019
+1e candidates with non-empty tv_show_genre_1: 0.981
+1e candidates with non-empty director: 0.974
+1e candidates with non-empty actors: 0.977
+1e candidates with non-empty year_of_production: 0.998
+1e category shares among candidates: {'Фильмы': 0.832, 'Детям': 0.076, 'Сериалы': 0.069, 'Развлечения': 0.01, 'Познавательное': 0.007, 'Инфо': 0.004, 'Другое': 0.001, 'Спорт': 0.0}
+1e category shares among validation hits (all users' truth): {'Фильмы': 0.675, 'Развлечения': 0.09, 'Сериалы': 0.082, 'Инфо': 0.051, 'Детям': 0.049, 'Познавательное': 0.046, 'Другое': 0.008}
+
+2a truth = distinct tv_show_ids with (overlap >= 300 s OR >= 90% of airing) in weeks 25-30; users 1244, |R_u| median 77, 10% 29, 90% 154; candidates 5013; |R_u|/|cand| median 0.0154
+2b popularity Top-5 and share of evaluation users who watched it in validation:
+     2400480 'ТСН. Неделя'.                           0.818
+      240081 Факты. День.                             0.768
+     6500479 'Мир наизнанку. Бразилия', 36 эп.        0.687
+     2400508 Сегодня. Итоги с Олегом Панютой.         0.653
+     2400467 'Викна-Новости'.                         0.650
+2b popularity AP@5 distribution: share AP=1: 0.371, AP=0: 0.047
+2c random 5 candidates (seed 42): MAP@5 = 0.0084

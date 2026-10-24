@@ -1,0 +1,37 @@
+{
+ "ov>=60s": {
+  "popularity": 0.7438,
+  "history": 0.7867,
+  "CBF": 0.4999,
+  "PPR": 0.7911,
+  "LR fusion": 0.8025
+ },
+ "ov>=300s (main)": {
+  "popularity": 0.6624,
+  "history": 0.7381,
+  "CBF": 0.4386,
+  "PPR": 0.7419,
+  "LR fusion": 0.7509
+ },
+ "ov>=900s": {
+  "popularity": 0.5497,
+  "history": 0.6413,
+  "CBF": 0.3631,
+  "PPR": 0.6447,
+  "LR fusion": 0.6514
+ },
+ "ov>=1800s": {
+  "popularity": 0.3676,
+  "history": 0.4513,
+  "CBF": 0.2603,
+  "PPR": 0.4521,
+  "LR fusion": 0.437
+ },
+ "frac>=0.5": {
+  "popularity": 0.4709,
+  "history": 0.5568,
+  "CBF": 0.2701,
+  "PPR": 0.5595,
+  "LR fusion": 0.5856
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "popularity": 0.6624,
+ "history w=seconds hl=None": 0.6372,
+ "history w=seconds hl=8": 0.636,
+ "history w=seconds hl=4": 0.6132,
+ "history w=airings hl=None": 0.7134,
+ "history w=airings hl=8": 0.7163,
+ "history w=airings hl=4": 0.7111,
+ "history w=weeks hl=None": 0.7381,
+ "history w=weeks hl=8": 0.7326,
+ "history w=weeks hl=4": 0.7177,
+ "CBF channel=False": 0.2698,
+ "CBF channel=True": 0.4388,
+ "PPR alpha=0.15": 0.7381,
+ "PPR alpha=0.3": 0.7381,
+ "PPR alpha=0.5": 0.7385,
+ "PPR alpha=0.7": 0.7419,
+ "PPR alpha=0.85": 0.7399
+}

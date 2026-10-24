@@ -1,0 +1,23 @@
+  built 49451 candidate rows for 1230 users in 23 s
+fold B: candidate rows/user 40.2, positives 0.377, capped recall of candidates (first 300 users) 2.905
+  built 49884 candidate rows for 1244 users in 27 s
+fold A: candidate rows/user 40.1, positives 0.389, capped recall of candidates (first 300 users) 3.050
+LR coefficients (standardised features):
+  log_pop_last2   +0.767
+  hist_n          -0.695
+  wk_ratio        +0.674
+  ppr             +0.415
+  log_air_target  +0.399
+  log_air         +0.349
+  hist_rank       +0.319
+  wk_last4        +0.241
+  ch_aff          +0.225
+  log_hours       +0.214
+  never           -0.168
+  log_pop         -0.122
+  cbf             +0.101
+  ppr_rank        -0.043
+  since_last      -0.027
+fold B (fit): LR fusion MAP@5=0.7401 | inside same candidates: hist=0.7186, ppr=0.7197
+fold A (held-out): LR fusion MAP@5=0.7509 | inside same candidates: hist=0.7381, ppr=0.7405
+reverse check: fit on A, evaluate on B: MAP@5=0.7360

@@ -1,0 +1,11 @@
+split train weeks 11-24 / val weeks 25-30
+test users 1260; with >=1 relevant show in val 1244; with watched history in train 1252
+candidate pool (labelled shows airing in val weeks): 5013
+relevant set size per user: median 77.0 mean 86.92
+share of relevant shows inside candidate pool: 1.0
+share of a user's val shows already watched by them in train (repeat rate): 0.282
+evaluation users: 1244
+popularity weeks_back=None: MAP@5=0.6624 top5=[2400480, 240081, 6500479, 2400508, 2400467]
+popularity weeks_back=4: MAP@5=0.6625 top5=[2400480, 240081, 6500479, 2400467, 2400508]
+popularity weeks_back=2: MAP@5=0.6625 top5=[2400480, 240081, 6500479, 2400467, 2400508]
+popularity weeks_back=1: MAP@5=0.6625 top5=[2400480, 240081, 6500479, 2400467, 2400508]

@@ -1,0 +1,32 @@
+/home/claude/work/01_explore.py:25: DtypeWarning: Columns (0: year_of_production) have mixed types. Specify dtype option on import or set low_memory=False.
+  s = pd.read_csv(f"{D}/{f}", dtype={"tv_show_id": "int64"})
+view rows 5821987 users 4914 channels 202
+view time range 2020-03-09 00:00:02 2020-07-26 23:59:58
+duraton check (stop-start==duraton): 0.9999799037682495
+duraton quantiles {0.1: 80.0, 0.25: 133.0, 0.5: 396.0, 0.75: 1452.0, 0.9: 3911.0, 0.99: 14079.139999999665} max 342145
+  share of views < 60s: 0.000
+  share of views < 120s: 0.222
+  share of views < 300s: 0.440
+  share of views < 600s: 0.584
+  share of views < 900s: 0.663
+  share of views < 1800s: 0.787
+views per ISO week:
+ {np.uint32(11): 407493, np.uint32(12): 452314, np.uint32(13): 465318, np.uint32(14): 428820, np.uint32(15): 412698, np.uint32(16): 406317, np.uint32(17): 417854, np.uint32(18): 385637, np.uint32(19): 336042, np.uint32(20): 232680, np.uint32(21): 182044, np.uint32(22): 192998, np.uint32(23): 162882, np.uint32(24): 156928, np.uint32(25): 138807, np.uint32(26): 126940, np.uint32(27): 105223, np.uint32(28): 271172, np.uint32(29): 261698, np.uint32(30): 278122}
+submission rows 1260 unique users 1260
+test users present in view log: 1260
+== export_arh_11-20-final.csv: rows 1074235, labelled 115613 (10.762%), distinct ids 5847, channels 400, range 2020-03-08 23:00:00 .. 2020-05-18 11:45:00
+   labelled share of airtime(seconds): 0.16
+   categories: {'Детям': 47862, 'Сериалы': 31153, 'Фильмы': 21895, 'Развлечения': 6887, 'Инфо': 4487, 'Познавательное': 2792, 'Другое': 527, 'Спорт': 10}
+   programme duration quantiles (labelled): {0.1: 600.0, 0.5: 2700.0, 0.9: 7200.0}
+   view channels covered by schedule: 193 of 202
+== export_arh_21-30-final.csv: rows 1074394, labelled 121505 (11.309%), distinct ids 6363, channels 403, range 2020-05-18 00:00:00 .. 2020-07-27 11:55:00
+   labelled share of airtime(seconds): 0.169
+   categories: {'Детям': 46585, 'Сериалы': 33288, 'Фильмы': 25829, 'Развлечения': 6603, 'Инфо': 4485, 'Познавательное': 4212, 'Другое': 497, 'Спорт': 6}
+   programme duration quantiles (labelled): {0.1: 600.0, 0.5: 2700.0, 0.9: 7200.0}
+   view channels covered by schedule: 196 of 202
+== export_arh_31-42-final.csv: rows 1295378, labelled 144774 (11.176%), distinct ids 6636, channels 404, range 2020-07-27 00:00:00 .. 2020-10-19 11:55:00
+   labelled share of airtime(seconds): 0.167
+   categories: {'Детям': 55130, 'Сериалы': 40590, 'Фильмы': 30420, 'Развлечения': 8214, 'Инфо': 5503, 'Познавательное': 4367, 'Другое': 548, 'Спорт': 2}
+   programme duration quantiles (labelled): {0.1: 600.0, 0.5: 2700.0, 0.9: 7200.0}
+   view channels covered by schedule: 196 of 202
+time 27.1 s

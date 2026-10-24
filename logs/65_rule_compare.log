@@ -1,0 +1,17 @@
+pairs watched: old 2079149, new 2088838 (+9689 pairs, all with ov < 300 s and frac >= 0.9); airings < 300 s that can now count: 0.915 of the added pairs are airings shorter than 300 s
+added pairs by category: {'Детям': 9251, 'Инфо': 385, 'Развлечения': 35, 'Фильмы': 18}
+evaluation users 1244 ; of them with empty truth under new rule: 0
+truth rule old: median relevant shows/user 77
+truth rule new: median relevant shows/user 77
+  built 49451 candidate rows for 1230 users in 23 s
+  built 49884 candidate rows for 1244 users in 27 s
+model rule old: done in 67 s
+  built 49447 candidate rows for 1230 users in 22 s
+  built 49899 candidate rows for 1244 users in 25 s
+model rule new: done in 64 s
+              model=old truth=old  model=new truth=old  model=old truth=new  model=new truth=new  Δ (truth old)  Δ (truth new)
+Популярность               0.6624               0.6624               0.6627               0.6627         0.0000         0.0000
+История                    0.7381               0.7365               0.7384               0.7387        -0.0016         0.0003
+CBF                        0.4388               0.4379               0.4389               0.4388        -0.0009        -0.0001
+PPR α=0.7                  0.7419               0.7406               0.7423               0.7426        -0.0013         0.0003
+Слияние (LR)               0.7509               0.7500               0.7512               0.7515        -0.0009         0.0003

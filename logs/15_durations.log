@@ -1,0 +1,21 @@
+view records 5821987 min 61 share exactly 0.006
+view-record min-duration: values < 70 s: [    0 34906 34760 34389 34031 34269 32724 32121 31242 31572]
+view record duraton: n=5821987 quantiles 10/25/50/75/90% = [  80.  133.  396. 1452. 3911.]
+   share <    60 s: 0.000
+   share <   120 s: 0.222
+   share <   300 s: 0.440
+   share <   600 s: 0.584
+   share <   900 s: 0.663
+   share <  1800 s: 0.787
+user-airing overlap: n=3014129 quantiles 10/25/50/75/90% = [  89.  213.  712. 1991. 4200.]
+   share <    60 s: 0.025
+   share <   120 s: 0.151
+   share <   300 s: 0.310
+   share <   600 s: 0.447
+   share <   900 s: 0.548
+   share <  1800 s: 0.723
+user-airing pairs kept at >= 300 s: 2079149 (0.690); their share of watched seconds 0.971
+fraction-of-airing quantiles: [0.015 0.044 0.195 0.659 1.   ]
+labelled programme (airing) duration quantiles 10/50/90%: [ 600. 2700. 7200.]
+share of labelled airings shorter than 300 s: 0.0154
+saved out/fig_durations.png

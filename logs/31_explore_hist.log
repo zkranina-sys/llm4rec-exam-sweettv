@@ -1,0 +1,14 @@
+pop                                           MAP@5=0.6624
+pop x airings_val                             MAP@5=0.2996
+pop/airings_train x airings_val               MAP@5=0.2002
+hist seconds                                  MAP@5=0.6372
+hist seconds x airings_val                    MAP@5=0.6409
+hist seconds / airings_train x airings_val    MAP@5=0.5067
+hist airings watched                          MAP@5=0.7134
+hist airings watched x airings_val            MAP@5=0.6182
+hist airings watched / airings_train x airings_val MAP@5=0.6469
+hist weeks watched                            MAP@5=0.7381
+hist weeks watched x airings_val              MAP@5=0.5806
+hist weeks watched / airings_train x airings_val MAP@5=0.5230
+rate x airings_val                            MAP@5=0.6469
+1-(1-rate)^airings_val                        MAP@5=0.2714

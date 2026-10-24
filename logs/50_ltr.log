@@ -1,0 +1,23 @@
+  built 49447 candidate rows for 1230 users in 22 s
+fold B (rule new): candidate rows/user 40.2, positives 0.378, share of users' first min(5,|R|) slots fillable from candidates (first 300 users) 0.951
+  built 49899 candidate rows for 1244 users in 26 s
+fold A (rule new): candidate rows/user 40.1, positives 0.390, share of users' first min(5,|R|) slots fillable from candidates (first 300 users) 0.974
+LR coefficients (standardised features):
+  log_pop_last2   +0.765
+  wk_ratio        +0.700
+  hist_n          -0.700
+  ppr             +0.412
+  log_air_target  +0.398
+  hist_rank       +0.318
+  log_air         +0.307
+  wk_last4        +0.240
+  log_hours       +0.229
+  ch_aff          +0.223
+  never           -0.175
+  log_pop         -0.117
+  cbf             +0.100
+  ppr_rank        -0.045
+  since_last      -0.030
+fold B (fit): LR fusion MAP@5=0.7399 | inside same candidates: hist=0.7189, ppr=0.7202
+fold A (held-out): LR fusion MAP@5=0.7515 | inside same candidates: hist=0.7387, ppr=0.7411
+reverse check: fit on A, evaluate on B: MAP@5=0.7359

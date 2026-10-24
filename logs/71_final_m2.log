@@ -1,0 +1,6 @@
+watched rule: new
+fitted on 99346 rows; new-feature coefficients: {'log_days_all': np.float64(0.727), 'days_last14': np.float64(0.249)}
+  built 50244 candidate rows for 1260 users in 34 s
+out/submission_lr_fusion_v2.csv: rows 1260, all 5 ids True, all in week 31-42 pool True, duplicate ids 0, user order == template True
+users whose Top-5 differs from current final: 1000 of 1260
+time 38 s

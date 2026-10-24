@@ -1,0 +1,8 @@
+shift -3 h: share of view starts 0-60 s after a programme start = 0.0169, 0-300s = 0.0801
+shift -2 h: share of view starts 0-60 s after a programme start = 0.0168, 0-300s = 0.0808
+shift -1 h: share of view starts 0-60 s after a programme start = 0.0172, 0-300s = 0.0817
+shift +0 h: share of view starts 0-60 s after a programme start = 0.0203, 0-300s = 0.0959
+shift +1 h: share of view starts 0-60 s after a programme start = 0.0181, 0-300s = 0.0860
+shift +2 h: share of view starts 0-60 s after a programme start = 0.0182, 0-300s = 0.0879
+shift +3 h: share of view starts 0-60 s after a programme start = 0.0188, 0-300s = 0.0894
+schedule: next_start - (start+duration) quantiles: [0. 0. 0. 0. 0.]

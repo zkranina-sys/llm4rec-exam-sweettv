@@ -1,0 +1,26 @@
+popularity                                    MAP@5=0.6624
+history w=seconds hl=None                     MAP@5=0.6372
+history w=seconds hl=8                        MAP@5=0.6360
+history w=seconds hl=4                        MAP@5=0.6132
+history w=airings hl=None                     MAP@5=0.7134
+history w=airings hl=8                        MAP@5=0.7163
+history w=airings hl=4                        MAP@5=0.7111
+history w=weeks hl=None                       MAP@5=0.7381
+history w=weeks hl=8                          MAP@5=0.7326
+history w=weeks hl=4                          MAP@5=0.7177
+history grid 4.7 s
+CBF features: 12775 tokens (channel=False)
+CBF channel=False                             MAP@5=0.2698
+CBF features: 12950 tokens (channel=True)
+CBF channel=True                              MAP@5=0.4388
+CBF 3.2 s
+PPR alpha=0.15                                MAP@5=0.7381
+  iters 5, 55.4 s
+PPR alpha=0.3                                 MAP@5=0.7381
+  iters 6, 68.4 s
+PPR alpha=0.5                                 MAP@5=0.7385
+  iters 7, 76.0 s
+PPR alpha=0.7                                 MAP@5=0.7419
+  iters 7, 69.8 s
+PPR alpha=0.85                                MAP@5=0.7399
+  iters 8, 83.4 s

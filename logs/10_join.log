@@ -1,0 +1,10 @@
+schedule rows 3444007; rows in duplicated (channel,start) keys 2; keys with conflicting id 0, conflicting duration 1
+schedule rows after de-dup 3444006
+views 5821987
+views with no schedule on their channel/time: 410910
+view x airing overlap pairs 7752424
+share of watched seconds falling on labelled airtime: 0.5643
+user-airing interactions (labelled) 3014129 users 4895 shows 4363
+overlap seconds quantiles {0.1: 89.0, 0.25: 213.0, 0.5: 712.0, 0.75: 1991.0, 0.9: 4200.0}
+fraction-of-programme quantiles {0.1: 0.015, 0.25: 0.044, 0.5: 0.195, 0.75: 0.659, 0.9: 1.0}
+time 30.9 s

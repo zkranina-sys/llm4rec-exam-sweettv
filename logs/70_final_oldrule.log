@@ -1,0 +1,8 @@
+test users 1260 with watched history in weeks 11-30: 1258
+  built 50234 candidate rows for 1260 users in 35 s
+fitted on 99335 rows; coefficients: {'wk_ratio': np.float64(0.544), 'wk_last4': np.float64(0.213), 'log_air': np.float64(0.473), 'log_hours': np.float64(0.167), 'since_last': np.float64(-0.181), 'never': np.float64(-0.036), 'log_pop': np.float64(0.169), 'log_pop_last2': np.float64(0.208), 'ppr': np.float64(0.386), 'cbf': np.float64(0.151), 'ch_aff': np.float64(0.242), 'log_air_target': np.float64(0.447), 'hist_n': np.float64(-0.637), 'ppr_rank': np.float64(-0.085), 'hist_rank': np.float64(0.333)}
+out/submission_lr_fusion.csv: rows 1260, all 5 ids True, all ids in week 31-42 pool True, rows with duplicate ids 0, user order == template True
+out/submission_popularity.csv: rows 1260, all 5 ids True, all ids in week 31-42 pool True, rows with duplicate ids 0, user order == template True
+out/submission_ppr.csv: rows 1260, all 5 ids True, all ids in week 31-42 pool True, rows with duplicate ids 0, user order == template True
+distinct programmes recommended: 116 ; most frequent: [(2400480, "'ТСН. Неделя'.", 1113), (240081, 'Факты. День.', 927), (2400508, 'Сегодня. Итоги с Олегом П', 661), (2400467, "'Викна-Новости'.", 488), (20088, "'Завтрак с 1+1'. Информац", 451)]
+time 63 s

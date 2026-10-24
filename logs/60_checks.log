@@ -1,0 +1,17 @@
+ov>=60s          median relevant/user   107 | popularity 0.7438 | history 0.7867 | CBF 0.4999 | PPR 0.7911 | LR fusion 0.8025
+ov>=300s (main)  median relevant/user    77 | popularity 0.6624 | history 0.7381 | CBF 0.4386 | PPR 0.7419 | LR fusion 0.7509
+ov>=900s         median relevant/user    55 | popularity 0.5497 | history 0.6413 | CBF 0.3631 | PPR 0.6447 | LR fusion 0.6514
+ov>=1800s        median relevant/user    37 | popularity 0.3676 | history 0.4513 | CBF 0.2603 | PPR 0.4521 | LR fusion 0.4370
+frac>=0.5        median relevant/user    28 | popularity 0.4709 | history 0.5568 | CBF 0.2701 | PPR 0.5595 | LR fusion 0.5856
+PPR user row 0: L1(power iteration vs exact solve) on candidates = 1.90e-08; exact sums to 1.000000; top-5 equal: True
+PPR user row 1: L1(power iteration vs exact solve) on candidates = 2.61e-08; exact sums to 1.000000; top-5 equal: True
+PPR user row 2: L1(power iteration vs exact solve) on candidates = 1.35e-08; exact sums to 1.000000; top-5 equal: True
+PPR iterations used: 7
+
+Hand check user 8381667675275833309: |relevant in val| = 9, denominator min(5, 9) = 5
+  rank 1: 2400480 "'ТСН. Неделя'." relevant=1  precision@1 = 1/1
+  rank 2: 240081 'Факты. День.' relevant=1  precision@2 = 2/2
+  rank 3: 6700482 "'Секретные материалы'." relevant=1  precision@3 = 3/3
+  rank 4: 12001682 "М/с 'Губка Боб Квадратные Штаны'." relevant=0
+  rank 5: 200432 'Дизель-шоу. 8 марта.' relevant=1  precision@5 = 4/5
+  AP@5 = 3.8000 / 5 = 0.7600; apk() returns 0.7600
